@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAB674FA1BCB8A6E007B0F93 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAB674F91BCB8A6E007B0F93 /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		EAB674FC1BCB9A97007B0F93 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAB674FB1BCB9A97007B0F93 /* .gitignore */; settings = {ASSET_TAGS = (); }; };
 		EAF4AAE91AF74A2E00C32C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */; };
 		EAF4AAEB1AF74A2E00C32C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4AAEA1AF74A2E00C32C86 /* ViewController.swift */; };
 		EAF4AAEE1AF74A2E00C32C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF4AAEC1AF74A2E00C32C86 /* Main.storyboard */; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAB674F91BCB8A6E007B0F93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EAB674FB1BCB9A97007B0F93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EAF4AAE31AF74A2E00C32C86 /* HearMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF4AAE71AF74A2E00C32C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		EAF4AAE51AF74A2E00C32C86 /* HearMeNow */ = {
 			isa = PBXGroup;
 			children = (
-				EAB674F91BCB8A6E007B0F93 /* .gitignore */,
+				EAB674FB1BCB9A97007B0F93 /* .gitignore */,
 				EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */,
 				EAF4AAEA1AF74A2E00C32C86 /* ViewController.swift */,
 				EAF4AAEC1AF74A2E00C32C86 /* Main.storyboard */,
@@ -197,7 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB674FA1BCB8A6E007B0F93 /* .gitignore in Resources */,
+				EAB674FC1BCB9A97007B0F93 /* .gitignore in Resources */,
 				EAF4AAEE1AF74A2E00C32C86 /* Main.storyboard in Resources */,
 				EAF4AAF31AF74A2E00C32C86 /* LaunchScreen.xib in Resources */,
 				EAF4AAF01AF74A2E00C32C86 /* Images.xcassets in Resources */,
