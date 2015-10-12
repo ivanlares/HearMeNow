@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,6 +20,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoQ-OW-bKe">
                                 <rect key="frame" x="16" y="49" width="568" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Record">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -28,6 +30,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdp-vP-Qfn">
                                 <rect key="frame" x="16" y="87" width="568" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Play">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,22 +40,24 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hear me now..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIX-Ab-YgM">
                                 <rect key="frame" x="16" y="20" width="568" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Sdp-vP-Qfn" firstAttribute="top" secondItem="ZoQ-OW-bKe" secondAttribute="bottom" constant="8" symbolic="YES" id="7IO-W0-M8L"/>
-                            <constraint firstItem="Sdp-vP-Qfn" firstAttribute="trailing" secondItem="ZoQ-OW-bKe" secondAttribute="trailing" id="7pE-pX-fFB"/>
-                            <constraint firstItem="Sdp-vP-Qfn" firstAttribute="leading" secondItem="ZoQ-OW-bKe" secondAttribute="leading" id="Vyl-Rm-NJY"/>
-                            <constraint firstItem="ZoQ-OW-bKe" firstAttribute="leading" secondItem="aIX-Ab-YgM" secondAttribute="leading" id="byx-yF-hlN"/>
-                            <constraint firstItem="ZoQ-OW-bKe" firstAttribute="top" secondItem="aIX-Ab-YgM" secondAttribute="bottom" constant="8" symbolic="YES" id="gbp-L7-CC3"/>
-                            <constraint firstItem="aIX-Ab-YgM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="kGj-2N-b5f"/>
-                            <constraint firstItem="aIX-Ab-YgM" firstAttribute="trailing" secondItem="ZoQ-OW-bKe" secondAttribute="trailing" id="r4e-7X-2nt"/>
-                            <constraint firstItem="ZoQ-OW-bKe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uIK-Rj-eBT"/>
-                            <constraint firstItem="aIX-Ab-YgM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="uz6-06-pij"/>
+                            <constraint firstItem="ZoQ-OW-bKe" firstAttribute="top" secondItem="aIX-Ab-YgM" secondAttribute="bottom" constant="8" id="4fc-rI-MWp"/>
+                            <constraint firstItem="Sdp-vP-Qfn" firstAttribute="top" secondItem="ZoQ-OW-bKe" secondAttribute="bottom" constant="8" id="Mah-aM-vcX"/>
+                            <constraint firstAttribute="trailing" secondItem="aIX-Ab-YgM" secondAttribute="trailing" constant="16" id="PuW-yW-33Z"/>
+                            <constraint firstItem="aIX-Ab-YgM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ZVx-Cr-lwM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZoQ-OW-bKe" secondAttribute="trailing" constant="-4" id="f0V-pH-RaL"/>
+                            <constraint firstItem="Sdp-vP-Qfn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-4" id="fjP-1O-5w3"/>
+                            <constraint firstItem="ZoQ-OW-bKe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-4" id="oSc-1s-oB6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sdp-vP-Qfn" secondAttribute="trailing" constant="-4" id="pyg-6T-otD"/>
+                            <constraint firstItem="aIX-Ab-YgM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="tnD-pu-c1Z"/>
                         </constraints>
                     </view>
                     <connections>

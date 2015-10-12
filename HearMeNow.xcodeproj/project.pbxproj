@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB674FA1BCB8A6E007B0F93 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAB674F91BCB8A6E007B0F93 /* .gitignore */; settings = {ASSET_TAGS = (); }; };
 		EAF4AAE91AF74A2E00C32C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */; };
 		EAF4AAEB1AF74A2E00C32C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4AAEA1AF74A2E00C32C86 /* ViewController.swift */; };
 		EAF4AAEE1AF74A2E00C32C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF4AAEC1AF74A2E00C32C86 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAB674F91BCB8A6E007B0F93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EAF4AAE31AF74A2E00C32C86 /* HearMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF4AAE71AF74A2E00C32C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		EAF4AAE51AF74A2E00C32C86 /* HearMeNow */ = {
 			isa = PBXGroup;
 			children = (
+				EAB674F91BCB8A6E007B0F93 /* .gitignore */,
 				EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */,
 				EAF4AAEA1AF74A2E00C32C86 /* ViewController.swift */,
 				EAF4AAEC1AF74A2E00C32C86 /* Main.storyboard */,
@@ -156,7 +159,9 @@
 		EAF4AADB1AF74A2E00C32C86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ivan Lares";
 				TargetAttributes = {
 					EAF4AAE21AF74A2E00C32C86 = {
@@ -192,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB674FA1BCB8A6E007B0F93 /* .gitignore in Resources */,
 				EAF4AAEE1AF74A2E00C32C86 /* Main.storyboard in Resources */,
 				EAF4AAF31AF74A2E00C32C86 /* LaunchScreen.xib in Resources */,
 				EAF4AAF01AF74A2E00C32C86 /* Images.xcassets in Resources */,
@@ -276,6 +282,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HearMeNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laresivan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HearMeNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laresivan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -360,16 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = HearMeNowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laresivan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
 			};
@@ -379,12 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HearMeNowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laresivan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
 			};
@@ -409,6 +414,7 @@
 				EAF4AB041AF74A2E00C32C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF4AB051AF74A2E00C32C86 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				EAF4AB071AF74A2E00C32C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
