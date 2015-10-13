@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAB674FB1BCB9A97007B0F93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EAB674FB1BCB9A97007B0F93 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = HearMeNow/.gitignore; sourceTree = "<group>"; };
 		EAF4AAE31AF74A2E00C32C86 /* HearMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF4AAE71AF74A2E00C32C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +61,7 @@
 		EAF4AADA1AF74A2E00C32C86 = {
 			isa = PBXGroup;
 			children = (
+				EAB674FB1BCB9A97007B0F93 /* .gitignore */,
 				EAF4AAE51AF74A2E00C32C86 /* HearMeNow */,
 				EAF4AAFB1AF74A2E00C32C86 /* HearMeNowTests */,
 				EAF4AAE41AF74A2E00C32C86 /* Products */,
@@ -79,7 +80,6 @@
 		EAF4AAE51AF74A2E00C32C86 /* HearMeNow */ = {
 			isa = PBXGroup;
 			children = (
-				EAB674FB1BCB9A97007B0F93 /* .gitignore */,
 				EAF4AAE81AF74A2E00C32C86 /* AppDelegate.swift */,
 				EAF4AAEA1AF74A2E00C32C86 /* ViewController.swift */,
 				EAF4AAEC1AF74A2E00C32C86 /* Main.storyboard */,
