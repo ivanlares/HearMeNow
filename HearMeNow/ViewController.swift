@@ -22,6 +22,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
   @IBAction func recordPressed(sender: AnyObject) {
     
     // !!!!!!Testing!!!!!!!!
+    // CHANGES ON MASTER
     
     if(soundRecorder?.recording == true){
       soundRecorder?.stop()
