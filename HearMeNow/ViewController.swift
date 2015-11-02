@@ -21,16 +21,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
   @IBOutlet weak var playButton: UIButton!
   @IBAction func recordPressed(sender: AnyObject) {
     
-    
-    // !!!!!!Testing!!!!!!!!
-
-    
-    // CHANGES ON MASTER
-
-
-    // TESTING ON TESTING BRANCH 
-
-    
     if(soundRecorder?.recording == true){
       soundRecorder?.stop()
       recordButton.setTitle("Record", forState: UIControlState.Normal)
